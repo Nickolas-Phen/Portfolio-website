@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.Center-header{
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.test{
+  background-color: chartreuse;
+  display: flex;
+}
+
+.test2{
+  background-color: blue;
+  display: flex;
+}
+
+.about-grid{
+  display:  grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "about skills" ;
+}
+
+.skills-grid{
+  display: grid;
+  
+}
+
+.item-a{
+  grid-area: about;
+  text-align: center;
+}
+
+.item-s{
+  grid-area: skills;
+  text-align: center;
+}
+
+html{
+  background: #121212;
+}
+
+body{
+  color: #61dafb;
+}
