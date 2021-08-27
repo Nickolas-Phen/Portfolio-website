@@ -56,7 +56,7 @@ function App() {
       <body >
         <h1>Contact</h1>
         <p className="Center-header">Email: nickolas.phen@gmail.com<span className="tab"/>Phone #: (954)-651-5196
-          <p className="Center-header">GitHub: <a href="https://github.com/Nickolas-Phen">Nickolas Phen</a><span className="tab"/>Resume: <a href="NickolasPhen Resume.pdf">Resume</a></p>
+          <p className="Center-header">GitHub: <a href="https://github.com/Nickolas-Phen">Nickolas Phen</a><span className="tab"/>Resume: <a href="NickolasPhen Resume.pdf" download>Resume</a></p>
         </p>
       </body>
     </React.Fragment>
