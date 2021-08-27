@@ -76,10 +76,29 @@
   text-align: center;
 }
 
+.project-grid{
+  display:  grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  
+}
+
+.projectA{
+  grid-column: 1;
+}
+
+.projectB{
+  grid-column: 2;
+}
+
 html{
   background: #121212;
 }
 
 body{
   color: #61dafb;
+}
+
+img{
+  padding: 10px;
 }
