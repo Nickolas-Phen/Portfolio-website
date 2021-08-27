@@ -83,12 +83,13 @@
   
 }
 
-.projectA{
-  grid-column: 1;
+.desc{
+  padding: 10%
 }
 
-.projectB{
-  grid-column: 2;
+.tab {
+  display: inline-block;
+  margin-left: 40px;
 }
 
 html{
@@ -101,4 +102,12 @@ body{
 
 img{
   padding: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  white-space: pre-line;
 }
