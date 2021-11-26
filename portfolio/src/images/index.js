@@ -12,6 +12,9 @@ const images={
     github: require('./Github.png').default,
     hw: require('./HeavenlyWriting.png').default,
     tt: require('./Trailtracker.png').default,
+    pw: require('./PortfolioWebsite.png').default,
+    rc: require('./RoboCode.png').default,
 }
+
 
 export default images;
