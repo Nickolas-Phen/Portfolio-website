@@ -93,6 +93,22 @@ function App() {
         </p>
         <img src={images.pw} className="img-style" alt="Portfolio Website" width="800" height="auto"/>
 
+        <img src={images.cc} className="img-style" alt="Crypto Cup" width="800" height="auto"/>
+        <p className="desc">
+          <h1>Crypto Cup</h1>
+          Crypto Cup is a fantasy styled cryptocurrency app developed by me and a group of team members for
+          our senior design project. Players would create cups to compete in with others by creating a portfolio
+          based around different cryptocurrencies and seeing whose portfolio was worth the most by the end of the
+          cup. This app was developed using Next.js and React, Firebase, and Typescript as well as incorporating
+          Web 3.0 and smart contracts in order for users to connect their Ethereum wallets to the webapp so users
+          could participate and win cups.
+          <h1> 
+            <a href="https://github.com/Nickolas-Phen/cryptocup" target="_blank" rel="noreferrer">
+            <Button variant="outlined" color="primary">GitHub </Button>
+            </a>
+          </h1>  
+        </p>
+
       </body>
       <body >
         <h1>Contact</h1>

@@ -14,6 +14,7 @@ const images={
     tt: require('./Trailtracker.png').default,
     pw: require('./PortfolioWebsite.png').default,
     rc: require('./RoboCode.png').default,
+    cc: require('./CryptoCup.png').default,
 }
 
 
